@@ -15,7 +15,7 @@ from graphene_django import DjangoObjectType
 from graphene_django.converter import get_choices
 from graphene_django.registry import get_global_registry
 from graphene_django.types import DjangoObjectTypeOptions
-from graphql.execution.base import ResolveInfo
+from graphql.type import GraphQLResolveInfo as ResolveInfo
 
 try:
     import graphene_django_optimizer as gql_optimizer
